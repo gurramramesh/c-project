@@ -10,8 +10,17 @@ public:
 		std::cout<<"this is constructor"<<endl;
 	}
 };
+class example2:public example
+{
+public:
+        example2()
+        {
+                std::cout<<"this is dervied constructor"<<endl;
+        }
+};
+
 int main()
 {
-	example e1;
+	example e2;
 	return 0;
 }
